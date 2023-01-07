@@ -6,12 +6,12 @@ function myFunction(p) {
     x.setAttribute("autoplay", "autoplay");
     
     var y = document.createElement("SOURCE");
-    y.setAttribute("src", "music1.mp3");
+    y.setAttribute("src", "");
     y.setAttribute("type", "audio/mpeg");
     x.appendChild(y);
     
     var z = document.createElement("SOURCE");
-    z.setAttribute("src", "music.mp3");
+    z.setAttribute("src", "music1.mp3");
     z.setAttribute("type", "audio/mpeg");
     x.appendChild(z);
   
