@@ -20,26 +20,6 @@ function myFunction(p) {
   
     document.body.appendChild(x);
   }
-  function myFunction1(p) {
-    var x = document.createElement("AUDIO");
-    x.setAttribute("id", "myVideo");
-    x.setAttribute("autoplay", "autoplay");
-    
-    var y = document.createElement("SOURCE");
-    y.setAttribute("src", "music.mp3");
-    y.setAttribute("type", "audio/mpeg");
-    x.appendChild(y);
-    
-    var z = document.createElement("SOURCE");
-    z.setAttribute("src", "music.mp3");
-    z.setAttribute("type", "audio/mpeg");
-    x.appendChild(z);
-  
-    // Set the autoplay property:
-    x.autoplay = p;
-  
-    document.body.appendChild(x);
-  }
 var stop, staticx;
 var img = new Image();
 img.src = "hoamai.png";
